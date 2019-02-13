@@ -8,6 +8,12 @@ for number in the_count
   puts "This is count #{number}"
 end
 
+puts "Study drill 2"
+
+the_count.each do |number|
+  puts "This the count #{number}"
+end
+
 # same as above, but in a more Ruby style
 # this and the next one are the preferred
 # way Ruby for-loops are written
@@ -31,4 +37,4 @@ elements = []
 end
 
 # now we can print them out too
-elements.each {|i| puts "Element was: #{i}"}
+elements.each {|i| puts "Element was: #{i}" }
