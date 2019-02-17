@@ -39,3 +39,11 @@ example_case()
 defined?($weather)
 
 (0..5).each do |x| puts x end
+
+  puts "Let's test or"
+
+   ice = nil
+
+  puts ice or puts "This?"
+
+(0..5).each { |i| puts(i) redo if i > 2}
